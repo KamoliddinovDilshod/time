@@ -15,8 +15,9 @@ var elPlaneTime = 800;
 function onFood(){
   var distance = Number(elInput.value);
   var onFoodTimes = distance/elFoodTime;
+
   if (distance>0){
-    elFood.textContent=(`${Math.round(onFoodTimes)} soat`);
+    elFood.textContent=(`${Math.floor(onFoodTimes)} soat`);
     return;
   }
   if (distance <=0){
@@ -42,7 +43,7 @@ function bycicle(){
   var bycicleTimes = distance/elBycicleTime;
   
   if (distance>0){
-    elBycicle.textContent=(`${Math.round(bycicleTimes)} soat`);
+    elBycicle.textContent=(`${Math.floor(bycicleTimes)} soat`);
     return;
   }
   if (distance <=0){
@@ -67,7 +68,7 @@ function car(){
   var distance = Number(elInput.value);
   var carTimes = distance/elCarTime;
   if (distance>0){
-    elCar.textContent=(`${Math.round(carTimes)} soat`);
+    elCar.textContent=(`${Math.floor(carTimes)} soat`);
     return;
   }
   if (distance <=0){
@@ -92,7 +93,7 @@ function plane(){
   var distance = Number(elInput.value);
   var planeTimes = distance/elPlaneTime;
   if (distance>0){
-    elPlane.textContent=(`${Math.round(planeTimes)} soat`);
+    elPlane.textContent=(`${Math.floor(planeTimes)} soat`);
     return;
   }
   if (distance <=0){
