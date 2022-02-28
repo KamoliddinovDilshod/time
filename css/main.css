@@ -1,0 +1,67 @@
+.site__box{
+  display: block;
+  margin: 0 auto;
+}
+
+.site__title{
+  text-align: center;
+  color: darkgrey;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.site__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.site__span{
+  font-size: 25px;
+}
+
+.site__input{
+  width: 200px;
+  margin: 0 35px;
+  padding: 4px 5px;
+}
+
+.site__button{
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.site__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site__item{
+  list-style-type: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin: 0 40px;
+  padding: 45px;
+}
+
+.site__img{
+  display: block;
+  margin: 0 auto;
+}
+
+.site__subtitle{
+  text-align: center;
+  font-size: 19px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.site__onfood , .site__bycicle , .site__car , .site__plane{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
